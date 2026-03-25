@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+
+body{
+
+    /*background-color: black;*/
+    /*background-color: rgb(0, 0, 0);*/
+    /*background-color: #00000;*/
+
+    /*background: linear-gradient(90deg, yellow, red);*/
+    /*background: radial-gradient(red, yellow);*/
+
+    background-image: url("../recursos/img/fundoselva.jpg");
+    
+    background-size: 900px;
+
+    /** background-size: no-repet*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img#fotojoao{
+
+    width:200px;
+    height: 200px;
+    border-radius: 100%;
+    /*whidth     style  color*/ 
+    border: 5px solid rgb(0, 109, 128);
+
+    /*          x     y     esfumaçado  cor*/
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3)
+}
+
+.titulos{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: 0px;
+    
+}
+h2{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+     font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+    margin: 0px 0px 50px 0px
+}
+
+figure{
+    display: flex;
+ 
+    justify-content: center;
+    
+}
+
+.botao{
+    background-color: rgb(106, 163, 32);
+    border: none;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.3) ;
+    transition: 0,3s;
+    cursor: pointer;
+}
+
+.botao:hover{
+    transform: rotate (20deg);
+    background-color: rgb(97, 207, 24);
+    font-size: 40px
+    
+    
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#rodape{
+    display: flex;
+    margin: 0px;
+
+}
+
+.icones{
+    margin: 10px;
+}
+
+svg:hover{
+    fill: rgb(26, 130, 199);
+    cursor: pointer;
+    transform: scale(1.5);
+
+}
+
+
+
