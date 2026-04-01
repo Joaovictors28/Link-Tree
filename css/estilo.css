@@ -83,7 +83,7 @@ figure{
 
 .botao:hover{
     transform: rotate (20deg);
-    background-color: rgb(97, 207, 24);
+    background-color: rgb(97, 207, 24); 
     font-size: 40px
     
     
