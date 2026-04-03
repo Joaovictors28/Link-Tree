@@ -7,30 +7,47 @@ $(function(){
     var subtitulo = $(" #subtitulos"); 
     var icones = $("svg")
     var Fundo = $(" body")
-    
+    var botao_modoescuro = $("#modoescuro")
+
+    var modoEscuro = false
+
 
     // PROCESSAMENTO
-    titulo.click( ()=>{
-         botoes.css("background-color","black");
-         botoes.css( "color", "white")
 
-    });
-   
-   titulo.dblclick( ()=>{
-        Fundo.html ("<h1> Alterado pelo js </h1>")
-
-
-});
 
     subtitulo.click ( ()=>{
 
         icones.css ("fill", "white")
-        alert(esse site pode ter vírus)
       
+      
+    })
+
+    botao_modoescuro.click ( ()=>{
+
+
+        if ( modoEscuro== false ){
+
+             botoes.css ("background-color", "black")
+            botoes.css ("color", "white")
+            
+            modoEscuro = true
+
+        }else{
+
+              botoes.css ("background-color", "green")
+            botoes.css ("color", "black")
+
+            modoEscuro = false
+
+
+        }
+
+      
+
     })
 
 
 
     //SAIDA
 
-})
+})  

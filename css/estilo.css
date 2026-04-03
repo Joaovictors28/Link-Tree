@@ -13,7 +13,7 @@ body{
 
     background-image: url("../recursos/img/fundoselva.jpg");
     
-    background-size: 900px;
+    background-size: contain;
 
     /** background-size: no-repet*/
 
@@ -112,6 +112,15 @@ svg:hover{
     fill: rgb(26, 130, 199);
     cursor: pointer;
     transform: scale(1.5);
+
+}
+
+#modoescuro{
+    position: absolute;
+    top: 50px;
+    right: 0%;
+
+    
 
 }
 
