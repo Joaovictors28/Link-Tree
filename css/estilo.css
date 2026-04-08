@@ -101,6 +101,7 @@ figure{
 #rodape{
     display: flex;
     margin: 0px;
+     
 
 }
 
@@ -109,7 +110,7 @@ figure{
 }
 
 svg:hover{
-    fill: rgb(26, 130, 199);
+    fill: rgb(28, 139, 84);
     cursor: pointer;
     transform: scale(1.5);
 
